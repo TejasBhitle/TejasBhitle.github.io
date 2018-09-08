@@ -211,7 +211,7 @@ var BlogDetailComponent = /** @class */ (function () {
 /***/ "./src/app/blogs/blogs.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".read-button{\n  margin-left: 20px;\n  margin-bottom: 20px;\n}\n"
+module.exports = ".read-button{\n  margin-left: 20px;\n  margin-bottom: 20px;\n}\n.spinner{\n  margin-top: 50px;\n  text-align: center;\n}\n"
 
 /***/ }),
 
@@ -312,6 +312,9 @@ var FirebaseService = /** @class */ (function () {
     FirebaseService.prototype.fetchProjects = function () {
         return this.db.list('/projects').valueChanges();
     };
+    FirebaseService.prototype.fetchResumeUrl = function () {
+        return this.db.object('/home-page/resume-url/').valueChanges();
+    };
     FirebaseService.prototype.fetchProfilePic = function () {
         return this.db.object('/home-page/profile-pic/').valueChanges();
     };
@@ -373,6 +376,7 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var HomeComponent = /** @class */ (function () {
     function HomeComponent(firebaseService) {
         this.firebaseService = firebaseService;
+        this.resumeUrl = "";
         this.introText = "";
     }
     HomeComponent.prototype.ngOnInit = function () {
@@ -392,12 +396,18 @@ var HomeComponent = /** @class */ (function () {
             _this.introText = text;
             _this.subscription2.unsubscribe();
         });
+        this.subscription3 = this.firebaseService.fetchResumeUrl().subscribe(function (url) {
+            _this.resumeUrl = url;
+            _this.subscription3.unsubscribe();
+        });
     };
     HomeComponent.prototype.ngOnDestroy = function () {
         if (this.subscription)
             this.subscription.unsubscribe();
         if (this.subscription2)
             this.subscription2.unsubscribe();
+        if (this.subscription3)
+            this.subscription3.unsubscribe();
     };
     HomeComponent = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["n" /* Component */])({
@@ -548,14 +558,14 @@ var ProjectsComponent = /** @class */ (function () {
 /***/ "./src/app/work/work.component.css":
 /***/ (function(module, exports) {
 
-module.exports = ".card{\n  min-height: 150px;\n}\n.footer-hyperlink{\n  margin: 0 auto;\n  margin-top: 10px;\n  text-align: center;\n  font-size: 20px;\n}\n"
+module.exports = ".card{\n  min-height: 150px;\n}\n.footer-hyperlink{\n  margin: 0 auto;\n  margin-top: 10px;\n  text-align: center;\n  font-size: 20px;\n}\n.spinner{\n  margin-top: 50px;\n  text-align: center;\n}\n"
 
 /***/ }),
 
 /***/ "./src/app/work/work.component.html":
 /***/ (function(module, exports) {
 
-module.exports = "<div class=\"row\" style=\"margin-top: 30px;\">\n  <div *ngIf=\"spinnerVisibility\" class=\"col s12 m12 spinner\">\n\t\t<div class=\"preloader-wrapper big active\">\n\t\t\t<div class=\"spinner-layer spinner-blue-only\">\n\t\t\t\t<div class=\"circle-clipper left\"><div class=\"circle\"></div></div>\n\t\t\t\t<div class=\"gap-patch\"><div class=\"circle\"></div></div>\n\t\t\t\t<div class=\"circle-clipper right\"><div class=\"circle\"></div></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n  <div *ngFor=\"let work of works\" class=\"col s12 m6\">\n\n    <div class=\"card\">\n      <div class=\"card-content\" style=\"text-align:center;\">\n\t\t\t\t<span class=\"card-title activator grey-text text-darken-4\">\n\t\t\t\t\t{{work.designation}}, {{work.company}}\n        </span>\n\t\t\t\t\t<span class=\"pink-text\">{{work.duration}}</span><br>\n          {{work.description}}\n\t\t\t</div>\n    </div>\n\n  </div>\n  <div class=\"col s12 m12 footer-hyperlink\">\n\n    <a class=\"pink-text \"\n    href=\"https://www.linkedin.com/in/tejas-bhitle-ab6597126\">\n    <u>See my LinkedIn for more details</u>\n  </a>\n  </div>\n</div>\n"
+module.exports = "<div class=\"row\" style=\"margin-top: 30px;\">\n  <div *ngIf=\"spinnerVisibility\" class=\"col s12 m12 spinner\">\n\t\t<div class=\"preloader-wrapper big active\">\n\t\t\t<div class=\"spinner-layer spinner-blue-only\">\n\t\t\t\t<div class=\"circle-clipper left\"><div class=\"circle\"></div></div>\n\t\t\t\t<div class=\"gap-patch\"><div class=\"circle\"></div></div>\n\t\t\t\t<div class=\"circle-clipper right\"><div class=\"circle\"></div></div>\n\t\t\t</div>\n\t\t</div>\n\t</div>\n  <div *ngFor=\"let work of works\" class=\"col s12 m6\">\n\n    <div class=\"card\">\n      <div class=\"card-content\" style=\"text-align:center;\">\n\t\t\t\t<span class=\"card-title activator grey-text text-darken-4\">\n\t\t\t\t\t{{work.designation}}, {{work.company}}\n        </span>\n\t\t\t\t\t<span class=\"pink-text\">{{work.duration}}</span><br>\n          {{work.description}}\n\t\t\t</div>\n    </div>\n\n  </div>\n  <div class=\"col s12 m12 footer-hyperlink\">\n\n    <a class=\"pink-text\"\n    href=\"https://www.linkedin.com/in/tejas-bhitle-ab6597126\">\n    <u>See my LinkedIn for more details</u>\n  </a>\n  </div>\n</div>\n"
 
 /***/ }),
 
