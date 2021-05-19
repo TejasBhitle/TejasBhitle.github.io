@@ -1,0 +1,68 @@
+<div class="row">
+    <div class="col s12 m8 offset-m2">
+      <div class="card intro-card">
+          <div class="profile_pic_container">
+            <div *ngIf="spinnerVisibility" class="col s12 m12 spinner">
+                <div class="preloader-wrapper big active">
+                    <div class="spinner-layer spinner-blue-only">
+                        <div class="circle-clipper left"><div class="circle"></div></div>
+                        <div class="gap-patch"><div class="circle"></div></div>
+                        <div class="circle-clipper right"><div class="circle"></div></div>
+                    </div>
+                </div>
+            </div>
+            <img class="profile_pic mdl-shadow--4dp" src={{profilePicUrl}}/>
+          </div>
+        <div class="card-content">
+          <span class="card-title">Welcome..!</span>
+          <p class="intro-card-text">{{introText}}
+          </p>
+        </div>
+        <div class="card-action links-card">
+          
+        <span class="social-text">Feel free to connect with me</span>
+
+        <div class="card-container">
+        <ul style="display: inline-flex;">  
+            <li class="li-item">
+                <a class="circle-link" title="LinkedIn" href="https://www.linkedin.com/in/tejas-bhitle-ab6597126" target="_blank" rel="noopener">
+                    <img src="assets/linkedin_icon.svg"/>
+                </a>
+            </li>
+        
+            <li class="li-item">
+                <a class="circle-link lower_shadow" title="Github" href="https://github.com/TejasBhitle" target="_blank" rel="noopener">
+                    <img class="smaller-icon" src="assets//github_icon.svg"/>
+                </a>
+            </li>
+        
+            <li class="li-item">
+                <a class="circle-link" title="Instagram" href="https://www.instagram.com/_tejasbhitle/" target="_blank" rel="noopener">
+                    <img src="assets/instagram_icon.svg"/>
+                </a>
+            </li>
+        
+            <li class="li-item">
+                <a class="circle-link" title="Twitter" href="https://www.twitter.com/tejasbhitle" target="_blank" rel="noopener">
+                    <img src="assets/twitter_icon.svg"/>
+                </a>
+            </li>
+        
+            <li class="li-item">
+                <a class="circle-link lower_shadow" title="Email" href="mailto:bhitletejas@gmail.com" target="_blank" rel="noopener">
+                    <img class="smaller-icon" src="assets/gmail_icon.svg"/>
+                </a>
+            </li>
+        </ul>
+      </div>
+
+          <a target="_blank" href="{{resumeUrl}}">
+            <button class="btn-small">Resume</button>
+          </a>
+          
+
+        </div>
+      </div>
+    </div>
+</div>
+  

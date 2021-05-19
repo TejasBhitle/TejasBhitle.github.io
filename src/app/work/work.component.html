@@ -1,0 +1,36 @@
+<div class="row" style="margin-top: 30px;">
+    <div *ngIf="spinnerVisibility" class="col s12 m12 spinner">
+          <div class="preloader-wrapper big active">
+              <div class="spinner-layer spinner-blue-only">
+                  <div class="circle-clipper left"><div class="circle"></div></div>
+                  <div class="gap-patch"><div class="circle"></div></div>
+                  <div class="circle-clipper right"><div class="circle"></div></div>
+              </div>
+          </div>
+      </div>
+    <div *ngFor="let work of works" class="col s12 m6">
+  
+      <div class="card">
+        <div class="card-content" style="text-align:center;">
+           <span class="card-title activator grey-text text-darken-4">
+             {{work.designation}}<br> 
+             {{work.company}}
+            </span>
+           <span class="pink-text">{{work.duration}}</span><br><br>
+            {{work.description}}
+        </div>
+      </div>
+  
+    </div>
+    <div class="col s12 m12 footer-hyperlink">
+      
+      <a class="pink-text"
+      href="https://www.linkedin.com/in/tejas-bhitle-ab6597126">
+      Check my
+      <u>LinkedIn</u>
+      for more details
+    </a>
+    <br><br><br>
+    </div>
+  </div>
+  

@@ -1,0 +1,57 @@
+.spinner{
+  margin-top: 50px;
+  text-align: center;
+}
+.intro-card{
+  margin: auto;
+  margin-top: 50px;
+}
+.intro-card-text{
+  font-size: 18px;
+}
+.project-card{
+  margin-top:30px;
+}
+.project-image{
+  margin: 10px auto;
+  position: relative;
+  max-height: 120px;
+  max-width: 120px;
+  top:10px;
+  margin-bottom:1px;
+}
+.project_header {
+  min-height:100px;
+  min-width:100px;
+  text-align: center;
+}
+.project-title-text {
+  text-align: center;
+  font-size: 16px;
+  margin: 20px;
+}
+.project-links{
+  text-align: center;
+}
+.card-title{
+  font-size: 22px;
+  text-align: center;
+}
+.card-description{
+  font-size: 18px;
+}
+.project-card-content{
+  padding: 20px;
+  min-height: 260px;
+}
+.feature-list{
+  margin-left: 10px;
+}
+.feature-list-item{
+  list-style-type: circle;
+}
+
+.project-links > button {
+  margin: 5px;
+  border-radius: 10px;
+}

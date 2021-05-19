@@ -1,0 +1,53 @@
+<div class="row">
+
+	<div class="col s12 m8 offset-m2">
+    <div class="card">
+      <div class="card-content intro-card">
+        <p class="intro-card-text">
+			When I get involved in a project, I don't just complete it.
+		    I walk an extra mile ahead to make it better than requested.
+		    Below are some of my projects. 
+			  <br>
+			Check out my
+			<a href="https://github.com/TejasBhitle/">Github</a>
+		    for more open sources.
+		</p>
+      </div>
+    </div>
+  </div>
+
+	<div *ngIf="spinnerVisibility" class="col s12 m12 spinner">
+		<div class="preloader-wrapper big active">
+			<div class="spinner-layer spinner-blue-only">
+				<div class="circle-clipper left"><div class="circle"></div></div>
+				<div class="gap-patch"><div class="circle"></div></div>
+				<div class="circle-clipper right"><div class="circle"></div></div>
+			</div>
+		</div>
+	</div>
+
+
+	<div *ngFor="let project of projects" class="project-card col s12 m6">
+		<div class="card">
+			<div class="card-image">
+				<img class="project-image" src={{project.iconUrl}}>
+			</div>
+			<div class="card-content project-card-content">
+				<span class="card-title grey-text text-darken-4"> <b>{{project.name}}</b> </span>
+				<span class="card-description">{{project.description}}</span>
+				
+				<ul class="feature-list">
+					<li class="feature-list-item" *ngFor="let feature of project.features">{{ feature.text }}</li>
+				</ul>
+				<a class="project-links" *ngFor="let link of project.links" href={{link.url}} target="_blank" rel="noopener">
+					<button class="red waves-effect waves-light btn-small">
+						{{link.name}}
+					</button>
+				</a>
+			</div>
+		</div>
+
+
+
+	</div>
+</div>
