@@ -1,10 +1,14 @@
 
 # [TejasBhitle.github.io](https://tejasbhitle.github.io)
- 
+
+<br>
+
 ### Branch Conventions
-`master` : Contains minified code which is hosted <br>
-`gh-pages` : default branch to where angular-cli-pages deploys the minified code. <br>
-`source-code` : Actual source code. <br>
+Branch | Info 
+--- | --- 
+*master* | Contains minified code which is hosted. 
+*gh-pages* | default branch to where angular-cli-pages deploys the minified code. 
+[*source-code*](https://github.com/TejasBhitle/TejasBhitle.github.io/tree/source-code) | Actual source code. `NOT TO BE MERGED WITH MASTER/GH_PAGES`
 
 <br>
 
