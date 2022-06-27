@@ -1,0 +1,112 @@
+body{
+    background-color: #F9F7F7;
+}
+
+#profilePic {
+    max-height: 175px;
+    max-width: 175px;
+    border-radius : 180px;
+    margin : 20px;
+}
+
+#intro {
+    background-image: url("https://mdbootstrap.com/img/new/fluid/city/018.jpg");
+    height: 100vh;
+}
+
+/* Height for devices larger than 576px */
+@media (min-width: 992px) {
+    #intro {
+        margin-top: -58.59px;
+    }
+}
+
+.navbar .nav-link {
+    color: #fff !important;
+}
+
+.btn-group-lg>.btn, .btn-lg {
+    font-size: 1.3rem;
+}
+.ms-bg {
+    background-color: #042c53;
+}
+
+.logo-img {
+    display: block;
+    max-width: 290px;
+    max-height: 150px;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+
+.project-icon{
+    max-width: 100px;
+    max-height: 100px;
+    width: auto;
+    height: auto;
+    margin: 20px;
+}
+
+.badge-custom {
+    background-color: #D8D8D8;
+    color: black;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.15rem;
+    font-size: .85em;
+}
+
+.project-tag{
+    background-color: transparent;
+    color: #3282B8;
+    display: inline-block;
+    padding: 0.35em 0.65em;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: 0.15rem;
+    font-size: .85em;
+    border-color: #3282B8;
+    border-width: 0.125rem;
+    border-style: solid;
+    box-shadow: none;
+    box-sizing: border-box;
+    border-radius: 10rem;
+    margin: 1px;
+}
+
+
+.project-button {
+    background-color: #3282B8;
+    color: white;
+}
+
+.text-primary-custom{
+    color: #142850;
+}
+
+.justify-text{
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.line-spacing{
+    line-height: 1.8;
+}
+
+mark{
+    background-color: #D8D8D8;
+    color: black;
+    margin: 1px;
+    font-weight: bold;
+}
+.progress-bar {
+    background-color: #3282B8;
+}
