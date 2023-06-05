@@ -10,7 +10,7 @@
     content: '';
     position: absolute;
     width: 3px;
-    background-color: #042c53;
+    /* background-color: #042c53; */
     top: 0;
     bottom: 0;
     left: auto;
@@ -31,7 +31,7 @@
     width: 17px;
     height: 17px;
     right: 1px;
-    background-color: #042c53;
+    /* background-color: #042c53; */
     top: 18px;
     border-radius: 50%;
     z-index: 1;
@@ -50,7 +50,7 @@
     top: 18px;
     z-index: 1;
     left: 10px;
-    border: medium solid #042c53;
+    /* border: medium solid #042c53; */
     border-width: 10px 10px 10px 0;
     border-color: transparent #042c53 transparent transparent;
 }

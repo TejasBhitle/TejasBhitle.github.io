@@ -1,5 +1,5 @@
 body{
-    background-color: #F9F7F7;
+    background-color: #FEFEFE;
 }
 
 #profilePic {
@@ -35,7 +35,8 @@ body{
 .logo-img {
     display: block;
     max-width: 290px;
-    max-height: 150px;
+    max-height: 125px;
+    min-height: 115px;
     width: 100%;
     height: auto;
     margin: auto;
