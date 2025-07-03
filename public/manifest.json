@@ -1,0 +1,27 @@
+{
+  "name": "Tejas Bhitle",
+  "short_name": "Tejas Bhitle",
+  "description": "A passionate Software Developer who loves crafting scalable backend systems and a Photographer capturing stories through the lens.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1f2937",
+  "theme_color": "#3b82f6",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/profile_pic.jpeg",
+      "sizes": "192x192",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/profile_pic.jpeg",
+      "sizes": "512x512",
+      "type": "image/jpeg",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["business", "productivity", "photography"],
+  "lang": "en",
+  "dir": "ltr"
+} 

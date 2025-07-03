@@ -1,0 +1,17 @@
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://tejasbhitle.com/sitemap.xml
+
+# Disallow admin or private areas (if any)
+Disallow: /api/
+Disallow: /_next/
+Disallow: /admin/
+
+# Allow important files
+Allow: /favicon.ico
+Allow: /profile_pic.jpeg
+Allow: /company-icons/
+Allow: /project-icons/
+Allow: /photography/ 
