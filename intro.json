@@ -1,0 +1,49 @@
+{
+  "title": "Hi, I'm Tejas",
+  "introText": "Software engineer by profession, photographer by passion. I create clean code and capture meaningful moments.",
+  "dynamicRoles": [
+    "Backend Developer",
+    "Android Developer", 
+    "Photographer"
+  ],
+  "images": {
+    "developer": "/profile_pic.jpeg",
+    "photographer": "/photographer_pic.webp"
+  },
+  "socialLinks": [
+    {
+      "name": "LinkedIn",
+      "url": "https://www.linkedin.com/in/tejasbhitle",
+      "icon": "fab fa-linkedin"
+    },
+    {
+      "name": "GitHub",
+      "url": "https://github.com/TejasBhitle",
+      "icon": "fab fa-github"
+    },
+    {
+      "name": "LeetCode",
+      "url": "https://leetcode.com/TejasBhitle",
+      "icon": "fas fa-code"
+    },
+    {
+      "name": "Instagram",
+      "url": "https://www.instagram.com/clicked.by.tejas",
+      "icon": "fab fa-instagram"
+    },
+    {
+      "name": "Facebook",
+      "url": "https://facebook.com/tejasbhitle",
+      "icon": "fab fa-facebook"
+    },
+    {
+      "name": "Email",
+      "url": "mailto:tejasbhitle.jobs@gmail.com",
+      "icon": "fas fa-envelope"
+    }
+  ],
+  "resume": {
+    "text": "Resume",
+    "url": "/resume.pdf"
+  }
+} 

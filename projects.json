@@ -1,0 +1,123 @@
+[
+  {
+    "id": 1,
+    "name": "Blockify",
+    "description": "Blockchain-based Music Streaming Platform",
+    "icon": "/project-icons/blockify.png",
+    "points": [
+      "Smart Contracts in Solidity",
+      "Metamask Wallet transactions",
+      "IPFS, Ganache + Truffle Suite",
+      "React based User Interface"
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/Blockify",
+      "website": "https://blockify1.netlify.app"
+    }
+  },
+  {
+    "id": 2,
+    "name": "FoodCourt",
+    "description": "Social Media Start-up MVP for Foodies & Chefs",
+    "icon": "/project-icons/fcourt.png",
+    "points": [
+      "Tinder-Style UI for browsing restuarants.",
+      "Django channels & Redis for Group Sessions",
+      "AWS EC2, RDS, S3",
+      "React-Native based User Interface"
+    ],
+    "links": {
+      "github": "https://github.com/The-Food-Court/The-Food-Court"
+    }
+  },
+  {
+    "id": 3,
+    "name": "Chehra",
+    "description": "Facial Recognition based Attendance Management System",
+    "icon": "/project-icons/chehra_ic.png",
+    "points": [
+      "Supports recognition of multiple faces",
+      "Android application for Students",
+      "Complete dashboard for Teachers",
+      "IoT Camera connected to the board"
+    ],
+    "links": {
+      "publication": "https://ieeexplore.ieee.org/document/8776924",
+      "github": "https://github.com/TejasBhitle/Chehra-Backend"
+    }
+  },
+  {
+    "id": 4,
+    "name": "Encrypto",
+    "description": "An Android App designed for Virtual Stock Market Fun Event.",
+    "icon": "/project-icons/encrpto.png",
+    "points": [
+      "Realtime stock price updates",
+      "Efficient Concurrency management",
+      "Live leaderboard",
+      "DB using Firebase CloudFirestore"
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/Encrypto-Ecell"
+    }
+  },
+  {
+    "id": 5,
+    "name": "Coral",
+    "description": "Style Transfering app to turn your photos into awesome artwork",
+    "icon": "/project-icons/coral_icon.png",
+    "points": [
+      "Supports transfer of artwork style to your image",
+      "Supports background blurring (Bokeh Mode)",
+      "Edge Detection",
+      "Ran using Django Rest Framwork"
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/Coral-Android"
+    }
+  },
+  {
+    "id": 6,
+    "name": "FoodMart",
+    "description": "A Demo Food E-commerce written in Angular",
+    "icon": "/project-icons/foodmart.png",
+    "points": [
+      "Realtime Database & hosting via Firebase",
+      "Simple UI using bootstrap framework",
+      "Faster performance using Typescript"
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/FoodMart",
+      "website": "https://awesome-foodmart.firebaseapp.com/"
+    }
+  },
+  {
+    "id": 7,
+    "name": "GameDB",
+    "description": "Informative app for games written in Kotlin",
+    "icon": "/project-icons/gamedb_icon.png",
+    "points": [
+      "Get latest updates of the games",
+      "Manage your favorite, via Firebase",
+      "Supports sorting by popularity, rating."
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/GameDB"
+    }
+  },
+  {
+    "id": 8,
+    "name": "Matrix 17",
+    "description": "Official App for Matrix Tech festival 2017",
+    "icon": "/project-icons/matrix_icon.png",
+    "points": [
+      "Explore various events at festival",
+      "Save events schedule",
+      "Connect with the event organizers"
+    ],
+    "links": {
+      "github": "https://github.com/TejasBhitle/Matrix2017",
+      "playstore": "https://play.google.com/store/apps/details?id=spit.matrix2017"
+    }
+  }
+]

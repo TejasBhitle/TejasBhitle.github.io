@@ -1,0 +1,72 @@
+[
+  {
+    "id": 0,
+    "description": "Wildlife photography reveals squirrel's delicate features",
+    "imageUrl": "/photography/squirrel.webp",
+    "category": "landscape",
+    "orientation": "landscape"
+  },
+  {
+    "id": 3,
+    "description": "Silhouettes against the infinite Pacific horizon",
+    "imageUrl": "/photography/halfmoonbay2.webp",
+    "category": "architecture",
+    "orientation": "landscape"
+  },
+  {
+    "id": 8,
+    "description": "Urban sailing on the Charles River waters",
+    "imageUrl": "/photography/boston.webp",
+    "category": "landscape",
+    "orientation": "landscape"
+  },
+  {
+    "id": 1,
+    "description": "Layered hills beneath SF's fiery sunset sky",
+    "imageUrl": "/photography/sf_sunset.webp",
+    "category": "landscape",
+    "orientation": "landscape"
+  },
+  {
+    "id": 4,
+    "description": "Trailing with my hooman",
+    "imageUrl": "/photography/potrait1.webp",
+    "category": "portrait",
+    "orientation": "portrait"
+  },
+  {
+    "id": 2,
+    "description": "Vibrant colors in Georgetown's street market",
+    "imageUrl": "/photography/georgetown.webp",
+    "category": "street",
+    "orientation": "landscape"
+  },
+  {
+    "id": 6,
+    "description": "Historic brownstones meet modern Boston skyline",
+    "imageUrl": "/photography/boston_arch.webp",
+    "category": "architecture",
+    "orientation": "landscape"
+  },
+  {
+    "id": 7,
+    "description": "Manhattan's skyline from across the Hudson River",
+    "imageUrl": "/photography/wtc_from_jersey.webp",
+    "category": "nature",
+    "orientation": "landscape"
+  },
+  {
+    "id": 5,
+    "description": "Where Roman inspiration meets modern landscape design",
+    "imageUrl": "/photography/pulgas_water_temple.webp",
+    "category": "landscape",
+    "orientation": "landscape"
+  },
+  {
+    "id": 9,
+    "description": "Buffalo's Sunset by the bay at twilight",
+    "imageUrl": "/photography/twilight_sunset_bay.webp",
+    "category": "architecture",
+    "orientation": "portrait"
+  }
+] 

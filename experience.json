@@ -1,0 +1,30 @@
+[
+  {
+    "id": 2,
+    "company": "Barclays",
+    "position": "Senior Software Developer",
+    "timeline": "2024 — 2025 (US) | 2019 — 2021 (India)",
+    "logo": "/company-icons/barclays_logo.webp",
+    "work": [
+      "Developed an Agentic system with topic-specific regulatory compilance agents and intelligent query routing. Utilized semantic vector search on PostgreSQL for financial regulation analysis.",
+      "Built a version-tracking platform for regulatory and compliance changes, enabling users to understand complex business logic for each reporting field, leveraging Neo4j, Angular, Spring",
+      "Developed AWS data migration pipelines, using Python for classification, reconciliation & transfer to the cloud",
+      "Optimized logging and monitoring by introducing ELK stack, reducing query response time from 2 hrs to mins."
+    ],
+    "skills": ["AWS", "CrewAI", "Python", "TypeScript", "Elasticsearch"]
+  },
+  {
+    "id": 3,
+    "company": "Morgan Stanley",
+    "position": "Senior Associate",
+    "timeline": "2021 — 2022",
+    "logo": "/company-icons/ms_logo.webp",
+    "work": [
+      "Designed workflow orchestration using Directed Acyclic Graphs (DAGs) to model tasks such as translations, lookups, and filters. Built a custom topological sorting algorithm to optimize API call sequencing",
+      "Developed and maintained a Spring-based reconciliation platform with a dynamic, Angular 8-driven UI, enabling flexible workflow configuration for end-users.",
+      "Automated and standardized production job management by organizing and scripting over 15,000+ Autosys jobs using Python, Bash, and Perl, improving auditing and reliability across environments."
+    ],
+    "skills": ["Spring", "Angular", "Kafka", "DB2", "Python", "Bash"]
+  }
+  
+] 
